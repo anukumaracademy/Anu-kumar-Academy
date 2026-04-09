@@ -34,7 +34,7 @@ const About = () => {
               <div className="relative">
                 <div className="aspect-[4/5] rounded-3xl bg-accent/5 overflow-hidden shadow-2xl relative">
                   <img
-                    src="https://images.unsplash.com/photo-1580894732230-28ec3205022e?auto=format&fit=crop&q=80&w=800"
+                    src="https://images.pexels.com/photos/5212320/pexels-photo-5212320.jpeg?auto=compress&cs=tinysrgb&w=800"
                     alt="Professional Hindi Tutor"
                     className="w-full h-full object-cover relative z-10"
                   />
