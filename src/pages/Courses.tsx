@@ -13,9 +13,9 @@ const Courses = () => {
   };
 
   const courseImages: { [key: string]: string } = {
-    academics: "https://images.unsplash.com/photo-1577891729319-6637130371f7?q=80&w=2070&auto=format&fit=crop",
-    spoken: "https://images.unsplash.com/photo-1491843384429-1814677d0a47?q=80&w=2067&auto=format&fit=crop",
-    sabha: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop"
+    academics: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=800",
+    spoken: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800",
+    sabha: "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&q=80&w=800"
   };
 
   return (
@@ -76,7 +76,6 @@ const Courses = () => {
                       src={courseImages[course.id] || `https://picsum.photos/seed/${course.id}/800/600`}
                       alt={course.title}
                       className="w-full h-full object-cover"
-                      referrerPolicy="no-referrer"
                     />
                   </div>
                 </div>

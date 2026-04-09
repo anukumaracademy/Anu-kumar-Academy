@@ -34,10 +34,9 @@ const About = () => {
               <div className="relative">
                 <div className="aspect-[4/5] rounded-3xl bg-gray-100 overflow-hidden shadow-2xl">
                   <img
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2070&auto=format&fit=crop"
+                    src="https://images.unsplash.com/photo-1544161515-4af6b1d462c2?auto=format&fit=crop&q=80&w=800"
                     alt="Tutor"
                     className="w-full h-full object-cover"
-                    referrerPolicy="no-referrer"
                   />
                 </div>
                 <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-accent rounded-3xl -z-10 hidden lg:block"></div>
@@ -87,17 +86,17 @@ const About = () => {
               {
                 title: "Personalized Learning",
                 desc: "Every student is different. We create custom lesson plans that focus on your strengths and work on your weaknesses.",
-                image: "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=2070&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=800"
               },
               {
                 title: "Interactive Sessions",
                 desc: "Our classes are not lectures. We encourage active participation, conversation, and real-world application of the language.",
-                image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=800"
               },
               {
                 title: "Continuous Feedback",
                 desc: "Regular assessments and constructive feedback help track progress and ensure that learning goals are being met.",
-                image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=2070&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800"
               }
             ].map((item, i) => (
               <div key={i} className="bg-white rounded-3xl overflow-hidden border border-gray-100 card-shadow group">
@@ -106,7 +105,6 @@ const About = () => {
                     src={item.image}
                     alt={item.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    referrerPolicy="no-referrer"
                   />
                 </div>
                 <div className="p-8">
